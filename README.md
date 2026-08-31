@@ -1,6 +1,6 @@
 # 🛒 Amazon Clone — Full Stack E-Commerce Website
 
-A full-stack e-commerce web application inspired by Amazon, built with a modern frontend and backend architecture. The project includes product browsing, user authentication, shopping cart functionality, and order management.
+A full-stack e-commerce web application inspired by Amazon, built with **React.js, Vite, Tailwind CSS, Node.js, Express.js, and MongoDB**. The project includes product browsing, user authentication, shopping cart functionality, and a responsive modern interface.
 
 ## 🚀 Features
 
@@ -9,21 +9,25 @@ A full-stack e-commerce web application inspired by Amazon, built with a modern 
 * 🔐 User Registration & Login
 * 🛒 Add products to cart
 * 📦 Cart management
-* 💳 Order / Checkout functionality
 * 🔑 Authentication and protected routes
 * 📱 Fully responsive design
+* 🎨 Modern UI built with Tailwind CSS
+* ⚡ Fast development with Vite
 * 🔗 Frontend connected with REST APIs
 * 🗄️ MongoDB database integration
+
+> **Note:** Order and Checkout functionality is not currently implemented/working in this version of the project.
 
 ## 🛠️ Technologies Used
 
 ### Frontend
 
 * React.js
+* Vite
 * JavaScript
 * HTML5
 * CSS3
-* Bootstrap / Responsive Design
+* Tailwind CSS
 * Axios
 * React Router
 
@@ -42,10 +46,10 @@ A full-stack e-commerce web application inspired by Amazon, built with a modern 
 Amazone-Project/
 │
 ├── front-end/
-│   └── React Frontend
+│   └── React + Vite Frontend
 │
 ├── back-end/
-│   └── Node.js / Express Backend
+│   └── Node.js + Express Backend
 │
 └── README.md
 ```
@@ -72,6 +76,8 @@ npm install
 npm run dev
 ```
 
+The frontend will start using **Vite**.
+
 ### 4. Setup Backend
 
 Open another terminal:
@@ -86,7 +92,7 @@ npm start
 
 ## 🔐 Environment Variables
 
-Create a `.env` file inside the backend folder and add your required configuration, for example:
+Create a `.env` file inside the backend folder and add your required configuration:
 
 ```env
 PORT=5000
@@ -98,7 +104,17 @@ JWT_SECRET=your_jwt_secret
 
 ## 🎯 Project Purpose
 
-This project was created to practice and demonstrate full-stack web development skills, including React frontend development, REST API integration, authentication, database management, and e-commerce functionality.
+This project was created to practice and demonstrate **full-stack web development** skills, including:
+
+* React.js frontend development
+* Vite project setup
+* Tailwind CSS styling
+* REST API integration
+* User authentication
+* JWT-based protected routes
+* Shopping cart functionality
+* MongoDB database management
+* Node.js and Express.js backend development
 
 ## 👨‍💻 Author
 
@@ -112,7 +128,4 @@ If you find this project useful or interesting, consider giving the repository a
 
 ---
 
-**Built with ❤️ using React.js, Node.js, Express.js and MongoDB.**
-
-```
-```
+**Built with ❤️ using React.js, Vite, Tailwind CSS, Node.js, Express.js and MongoDB.**
